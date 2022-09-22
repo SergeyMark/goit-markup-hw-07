@@ -1,0 +1,13 @@
+body {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.15;
+
+    color: var(--text-color);
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

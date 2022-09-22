@@ -1,0 +1,22 @@
+.features {
+    padding-top: 0;
+}
+
+.features__list {
+    display: flex;
+    gap: 30px;
+}
+
+.features__item {
+    position: relative;
+}
+
+.features__wrap {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 370px;
+
+    background-color: var(--bg-shadow);
+}

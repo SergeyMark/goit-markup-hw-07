@@ -1,0 +1,30 @@
+.preference__text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+}
+
+.preference__list {
+    display: flex;
+    gap: 30px;
+}
+
+.preference__item {
+    flex-basis: 270px;
+}
+
+/* SVG ICON Preference */
+
+.preference__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+
+    min-height: 120px;
+
+    background: var(--team-bg-color);
+    border-radius: 4px;
+}
