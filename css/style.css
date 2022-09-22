@@ -502,9 +502,11 @@ img{
     padding: 60px 0;
 }
 
-.footer-address{
+.address-wrap{
     flex-grow: 1;
+}
 
+.footer-address{
     font-style: normal;
 }
 

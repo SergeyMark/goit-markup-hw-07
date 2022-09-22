@@ -1,15 +1,5 @@
-.footer-address {
+.address-wrap {
     flex-grow: 1;
-
-    font-style: normal;
-
-    &--indent {
-        margin-right: 70px;
-    }
-
-    &--white {
-        color: var(--white-color);
-    }
 }
 
 .address-wrap__logo {
@@ -28,6 +18,14 @@
 
     &:last-child {
         margin-bottom: 0;
+    }
+}
+
+.footer-address {
+    font-style: normal;
+
+    &--indent {
+        margin-right: 70px;
     }
 }
 
