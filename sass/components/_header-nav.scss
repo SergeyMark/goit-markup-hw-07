@@ -1,14 +1,14 @@
 /* navigation */
 
-.nav-menu--indent {
+.header__nav-menu {
     margin-left: 93px;
 }
 
-.nav-menu__list {
+.site-nav {
     display: flex;
 }
 
-.nav-menu__item {
+.site-nav__item {
     margin-right: 50px;
 
 
@@ -17,7 +17,7 @@
     }
 }
 
-.nav-menu__link {
+.site-nav__link {
     position: relative;
 
     font-weight: 500;
@@ -39,13 +39,13 @@
     color: var(--premary-color);
     }
 
-
-    &.active {
-    color: var(--premary-color);
-    }
 }
 
-.active::after {
+.site-nav__link--active {
+    color: var(--premary-color);
+}
+
+.site-nav__link--active::after {
     position: absolute;
     bottom: -1px;
     right: 0;

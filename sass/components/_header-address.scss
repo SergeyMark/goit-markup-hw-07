@@ -1,9 +1,9 @@
-.address-container {
+.header__contats {
     display: flex;
     margin-left: auto;
 }
 
-.address__link {
+.contats__link {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -22,11 +22,11 @@
 
 }
 
-.adress__icon {
+.contats__icon {
     fill: currentColor;
     margin-right: 10px;
 }
 
-.address .address__item + .address__item {
+.contats .contats__item + .contats__item {
     margin-left: 50px;
 }

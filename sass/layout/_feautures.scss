@@ -1,10 +1,19 @@
-.features {
-    padding-top: 0;
-}
-
-.features__list {
+.features{
     display: flex;
     gap: 30px;
+}
+
+.features-wrap__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: var(--white-color);
+
+    padding: 27px 0;
 }
 
 .features__item {

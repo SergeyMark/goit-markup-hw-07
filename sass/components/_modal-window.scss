@@ -35,6 +35,21 @@
     border-radius: 4px;
 }
 
+.modal-form__title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    display: block;
+    margin-bottom: 12px;
+
+    color: var(--heading-color);
+}
+
 .modal-form__btn {
     position: absolute;
     top: 8px;
